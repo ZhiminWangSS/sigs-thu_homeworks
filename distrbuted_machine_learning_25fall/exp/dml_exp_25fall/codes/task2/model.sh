@@ -1,1 +1,0 @@
-python ./model.py   --n_devices 4
