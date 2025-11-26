@@ -1,0 +1,51 @@
+/home/zmwang/storage/miniconda3/envs/llama_factory/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:795: UserWarning: You are using a Backend <class 'torch.distributed.distributed_c10d.ProcessGroupGloo'> as a ProcessGroup. This usage is deprecated since PyTorch 2.0. Please use a public API of PyTorch Distributed instead.
+  warnings.warn(
+Initializing ParallelNet on worker 0...
+Creating remote SubNetConv on worker1...
+Creating remote SubNetFC on worker2...
+ParallelNet initialization complete.
+Device 0 starts training ...
+[Epoch 0] step 0, loss = 2.2980
+[Epoch 0] step 100, loss = 2.2891
+[Epoch 0] step 200, loss = 2.2829
+[Epoch 0] step 300, loss = 2.2466
+[Epoch 0] step 400, loss = 2.1631
+[Epoch 0] step 500, loss = 1.5909
+[Epoch 0] step 600, loss = 0.9559
+[Epoch 0] step 700, loss = 0.6243
+[Epoch 0] step 800, loss = 0.2868
+[Epoch 0] step 900, loss = 0.4342
+[Epoch 0] step 1000, loss = 0.4519
+[Epoch 0] step 1100, loss = 0.4357
+[Epoch 0] step 1200, loss = 0.2411
+[Epoch 0] step 1300, loss = 0.2889
+[Epoch 0] step 1400, loss = 0.4265
+[Epoch 0] step 1500, loss = 0.4525
+[Epoch 0] step 1600, loss = 0.1968
+[Epoch 0] step 1700, loss = 0.2225
+[Epoch 0] step 1800, loss = 0.1220
+[Epoch 1] step 0, loss = 0.0586
+[Epoch 1] step 100, loss = 0.1126
+[Epoch 1] step 200, loss = 0.2010
+[Epoch 1] step 300, loss = 0.1891
+[Epoch 1] step 400, loss = 0.3120
+[Epoch 1] step 500, loss = 0.0674
+[Epoch 1] step 600, loss = 0.3045
+[Epoch 1] step 700, loss = 0.2039
+[Epoch 1] step 800, loss = 0.2559
+[Epoch 1] step 900, loss = 0.0998
+[Epoch 1] step 1000, loss = 0.4501
+[Epoch 1] step 1100, loss = 0.1717
+[Epoch 1] step 1200, loss = 0.0519
+[Epoch 1] step 1300, loss = 0.0867
+[Epoch 1] step 1400, loss = 0.0330
+[Epoch 1] step 1500, loss = 0.1224
+[Epoch 1] step 1600, loss = 0.3097
+[Epoch 1] step 1700, loss = 0.2053
+[Epoch 1] step 1800, loss = 0.1712
+Training Finished!
+testing ...
+
+Test set: Accuracy: 9672/10000 (96.72%)
+
+Progress start on the worker0...

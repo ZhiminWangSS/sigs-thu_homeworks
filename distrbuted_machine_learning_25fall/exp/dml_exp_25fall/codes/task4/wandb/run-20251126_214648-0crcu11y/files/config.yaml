@@ -1,0 +1,77 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            w9u9k9sg098xymds3hl3awh01j6rnsrd:
+                args:
+                    - --n_devices
+                    - "3"
+                    - --rank
+                    - "0"
+                    - --master_addr
+                    - localhost
+                    - --master_port
+                    - "12357"
+                codePath: distrbuted_machine_learning_25fall/exp/dml_exp_25fall/codes/task4/model.py
+                codePathLocal: model.py
+                cpu_count: 40
+                cpu_count_logical: 80
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "1965172678656"
+                        used: "1758751580160"
+                email: 2391604943@qq.com
+                executable: /home/zmwang/storage/miniconda3/envs/llama_factory/bin/python
+                git:
+                    commit: 842ee1cb659aad941ba3f45fef63a02add653a39
+                    remote: https://github.com/ZhiminWangSS/sigs-thu_homeworks.git
+                gpu: NVIDIA A40
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "48305799168"
+                      name: NVIDIA A40
+                      uuid: GPU-be152d43-777d-90fd-e6be-1ca80100d1da
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "48305799168"
+                      name: NVIDIA A40
+                      uuid: GPU-a2e12a34-aa20-485f-5071-d4f3a9a5aa7f
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "48305799168"
+                      name: NVIDIA A40
+                      uuid: GPU-e9783eb0-a18e-05ad-8562-5f35f19a4403
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "48305799168"
+                      name: NVIDIA A40
+                      uuid: GPU-efa6ef4d-76ba-5b59-91e0-38f955b8f5d2
+                host: gnode6
+                memory:
+                    total: "405361922048"
+                os: Linux-6.8.0-59-generic-x86_64-with-glibc2.39
+                program: /home/aiseon/storage/zmwang_data/codes/sigs-thu_homeworks/distrbuted_machine_learning_25fall/exp/dml_exp_25fall/codes/task4/model.py
+                python: CPython 3.10.19
+                root: /home/aiseon/storage/zmwang_data/codes/sigs-thu_homeworks/distrbuted_machine_learning_25fall/exp/dml_exp_25fall/codes/task4
+                startedAt: "2025-11-26T13:46:48.655724Z"
+                writerId: w9u9k9sg098xymds3hl3awh01j6rnsrd
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 41
+                - 105
+            "2":
+                - 1
+                - 41
+                - 105
+            "3":
+                - 13
+            "4": 3.10.19
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": linux-x86_64
